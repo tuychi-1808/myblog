@@ -95,7 +95,7 @@ require ('../development_mode_control.php');
                 <div class="col-lg">
             <div class="card">
                 <div class="card-header">
-                    <h2>Управление всеми постами</h2>
+                    <h2>Управление постами</h2>
 
                 </div><!--end card-header-->
             </div><!--end card-->
