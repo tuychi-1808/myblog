@@ -1,0 +1,615 @@
+Time : 16:50:08
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:49:47
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:48:17
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:42:43
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:37:58
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:23:45
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:23:26
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:09:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:08:31
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:08:31
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:08:31
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:08:31
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:08:31
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:08:30
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:08:30
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:08:29
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:06:06
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:02:22
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:02:17
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:00:27
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 16:00:12
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 15:56:59
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 15:56:19
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 15:56:06
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 15:56:01
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 15:55:57
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 15:02:56
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:59:11
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:18:00
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:18:00
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:18:00
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:18:00
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:18:00
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:18:00
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:59
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:59
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:59
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:37
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:37
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:37
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:37
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:36
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:36
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:36
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:36
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:36
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:35
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:35
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:35
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:35
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:17:35
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:51
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:50
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:50
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:50
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:50
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:50
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:49
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:49
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:37
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:37
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:37
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:36
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:36
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:35
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:15:34
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:36
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:35
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:35
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:35
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:35
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:35
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:34
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:34
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:34
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:34
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:34
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:33
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:33
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:33
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:33
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:33
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:32
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:27
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:05
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:05
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:05
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:05
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:05
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:04
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:04
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:04
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:04
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:04
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:03
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:03
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:06:03
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:34
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:34
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:34
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:34
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:34
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:34
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:33
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:33
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:33
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:33
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:23
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:23
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:23
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:23
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:23
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:22
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:22
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:22
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:22
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:22
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:22
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:21
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:21
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:21
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:21
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:05:20
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:04:03
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:04:03
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:04:03
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:04:03
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:04:02
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:04:02
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:04:01
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:04:00
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:03:59
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:03:58
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:03:58
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:01:55
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 14:00:26
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 13:59:19
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 13:59:19
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 13:59:18
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 13:59:18
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 13:59:18
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 13:59:17
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 13:59:17
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 13:59:16
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 13:41:48
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 13:39:20
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 13:36:54
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 11:57:50
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 11:57:49
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 11:45:12
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 11:42:27
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 11:42:27
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 11:42:20
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger
+
+Time : 11:29:14
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.burger' doesn't exist
+Raw SQL : SELECT * FROM burger

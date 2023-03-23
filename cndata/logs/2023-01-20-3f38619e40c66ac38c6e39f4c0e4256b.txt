@@ -1,0 +1,34 @@
+Time : 08:37:29
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO sklad (id, productname, 
+                         part, unit, incomeqty, onhandqty, incomingprice, otherse, 
+                         saleprice, allprice, incomingdate, barcod, user_id)
+                        VALUES(?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 08:36:45
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO sklad (id, productname, 
+                         part, unit, incomeqty, onhandqty, incomingprice, otherse, 
+                         saleprice, allprice, incomingdate, barcod, user)
+                        VALUES(?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 08:36:26
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO sklad (id, productname, 
+                         part, unit, incomeqty, onhandqty, incomingprice, otherse, 
+                         saleprice, allprice, incomingdate, barcod, user)
+                        VALUES(?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 08:36:19
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO sklad (id, productname, 
+                         part, unit, incomeqty, onhandqty, incomingprice, otherse, 
+                         saleprice, allprice, incomingdate, barcod, user)
+                        VALUES(?,?,?,?,?,?,?,?,?,?,?,?)
+
+Time : 08:35:17
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO sklad (id, productname, 
+                         part, unit, incomeqty, onhandqty, incomingprice, otherse, 
+                         saleprice, allprice, incomingdate, barcod, user)
+                        VALUES(?,?,?,?,?,?,?,?,?,?,?,?)

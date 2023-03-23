@@ -1,0 +1,49 @@
+Time : 17:06:21
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO debtors (id, receiptnumber, debname, debphone, debtsum,  amount, salesum, debtdate, debtretdate)
+                        VALUES(?,?,?,?,?,?,?,?)
+
+Time : 16:47:55
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO debtors (id, debname, debphone, debtsum,  amount, salesum, debtdate, debtretdate)
+                        VALUES(?,?,?,?,?,?,?)
+
+Time : 16:47:02
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+Raw SQL : INSERT INTO debtors (id, debname, debphone, debtsum,  amount, salesum, debtdate, debtretdate)
+                        VALUES(?,?,?,?,?,?,?
+
+Time : 16:46:55
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+Raw SQL : INSERT INTO debtors (id, debname, debphone, debtsum,  amount, salesum, debtdate, debtretdate)
+                        VALUES(?,?,?,?,?,?,?
+
+Time : 16:45:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+Raw SQL : INSERT INTO debtors (id, debname, debtsum, amount, salesum, debtdate, debtretdate)
+                        VALUES(?,?,?,?,?,?,?
+
+Time : 13:32:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'salesum, debtdate, debtretdate)
+                        VALUES(?,?,?,?,?,?,?...' at line 2
+Raw SQL : INSERT INTO debtors (id, debname, debphone, productid,productname,
+                         debtsum, amount, ,salesum, debtdate, debtretdate)
+                        VALUES(?,?,?,?,?,?,?,?,?,?)
+
+Time : 13:32:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'salesum debtdate, debtretdate)
+                        VALUES(?,?,?,?,?,?,?,...' at line 2
+Raw SQL : INSERT INTO debtors (id, debname, debphone, productid,productname,
+                         debtsum, amount, ,salesum debtdate, debtretdate)
+                        VALUES(?,?,?,?,?,?,?,?,?,?)
+
+Time : 07:55:02
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'skladm.empfizsale' doesn't exist
+Raw SQL : SELECT  * FROM empfizsale WHERE sessid=? group by sessid
+
+Time : 07:06:31
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id' cannot be null
+Raw SQL : INSERT INTO sales (id, receiptnum,
+                         sessid, productid, productname, amount, paid, unpaid,
+                         retdate, lico, paymenttype, saledate, clientname, clientphone)
+                        VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)

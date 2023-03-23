@@ -1,0 +1,45 @@
+Time : 11:03:59
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sessid' in 'field list'
+Raw SQL : INSERT INTO `temp_invent`( 
+                          `sessid`, 
+                          `productid`, 
+                          `bar_code`, 
+                          `qty`, 
+                          `qty_current`, 
+                          `otdel`
+                          ) VALUES (
+                                           ?,
+                                           ?,
+                                           ?,
+                                           ?,
+                                           ?,
+                                            ?
+                                           )
+
+Time : 11:02:26
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sessid' in 'where clause'
+Raw SQL : SELECT s.productname, s.barcod, ti.qty, ti.qty_current, ti.date, so.name FROM temp_invent as ti 
+                                LEFT JOIN sklad as s ON s.id = ti.productid 
+                                LEFT JOIN sklad_otdel as so ON so.id = ti.otdel 
+                                WHERE sessid = '2023-01-29'
+
+Time : 11:02:26
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sessid' in 'where clause'
+Raw SQL : SELECT s.productname, s.barcod, ti.qty, ti.qty_current, ti.date, so.name FROM temp_invent as ti 
+                                LEFT JOIN sklad as s ON s.id = ti.productid 
+                                LEFT JOIN sklad_otdel as so ON so.id = ti.otdel 
+                                WHERE sessid = '2023-01-29'
+
+Time : 11:02:25
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sessid' in 'where clause'
+Raw SQL : SELECT s.productname, s.barcod, ti.qty, ti.qty_current, ti.date, so.name FROM temp_invent as ti 
+                                LEFT JOIN sklad as s ON s.id = ti.productid 
+                                LEFT JOIN sklad_otdel as so ON so.id = ti.otdel 
+                                WHERE sessid = '2023-01-29'
+
+Time : 11:02:25
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sessid' in 'where clause'
+Raw SQL : SELECT s.productname, s.barcod, ti.qty, ti.qty_current, ti.date, so.name FROM temp_invent as ti 
+                                LEFT JOIN sklad as s ON s.id = ti.productid 
+                                LEFT JOIN sklad_otdel as so ON so.id = ti.otdel 
+                                WHERE sessid = '2023-01-29'

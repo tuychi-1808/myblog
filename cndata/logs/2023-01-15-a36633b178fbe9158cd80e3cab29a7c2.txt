@@ -1,0 +1,20 @@
+Time : 19:02:54
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'skladm.regionsname' doesn't exist
+Raw SQL : INSERT INTO regionsname (id, productname, 
+                         part, unit, incomeqty, onhandqty, incomingprice, 
+                         saleprice, allprice, incomingdate)
+                        VALUES(?,?,?,?,?,?,?,?,?,?)
+
+Time : 19:02:00
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'skladm.regionsname' doesn't exist
+Raw SQL : INSERT INTO regionsname (id, productname, 
+                         part, unit, incomeqty, onhandqty, incomingprice, 
+                         saleprice, allprice, incomingdate)
+                        VALUES(?,?)
+
+Time : 19:01:00
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'skladm.regionsname' doesn't exist
+Raw SQL : INSERT INTO regionsname (id, productname, 
+                         part, unit, incomeqty, onhandqty, incomingprice, 
+                         saleprice, allprice, incomingdate)
+                        VALUES(?,?)

@@ -1,0 +1,2 @@
+Time : 01:05:23
+SQLSTATE[HY000] [1049] Unknown database 'blog'

@@ -1,0 +1,20 @@
+Time : 16:16:59
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM tempfizsale WHERE sessid=?' at line 1
+Raw SQL : SELECT SUM(summa) as itogo, * FROM tempfizsale WHERE sessid=?
+
+Time : 12:25:14
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM tempfizsale WHERE sessid=?' at line 1
+Raw SQL : SELECT SUM(summa) as itogo, * FROM tempfizsale WHERE sessid=?
+
+Time : 12:00:02
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'
+Raw SQL : SELECT * FROM sklad WHERE name=?
+
+Time : 11:50:48
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO tempfizsale (id, sessid, productname, part, unit, qty, saleprice, summa)
+                        VALUES(?,?,?,?,?,?,?,?)
+
+Time : 07:17:08
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'skladm.regionsname' doesn't exist
+Raw SQL : SELECT * FROM regionsname

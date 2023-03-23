@@ -1,0 +1,62 @@
+Time : 13:51:25
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT sum(amount) as summa FROM sales WHERE user_id=? AND paymenttype=?
+
+Time : 13:51:25
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT sum(amount) as summa FROM sales WHERE user_id=? AND paymenttype=?
+
+Time : 13:51:25
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT sum(amount) as summa FROM sales WHERE user_id=? AND paymenttype=?
+
+Time : 13:51:25
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT sum(amount) as summa FROM sales WHERE user_id=? AND paymenttype=?
+
+Time : 13:51:25
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT sum(amount) as summa FROM sales WHERE user_id=? AND paymenttype=?
+
+Time : 13:51:25
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT sum(amount) as summa FROM sales WHERE user_id=? AND paymenttype=?
+
+Time : 13:51:23
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT sum(amount) as summa FROM sales WHERE user_id=? AND paymenttype=?
+
+Time : 13:50:40
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT sum(amount) as summa FROM sales WHERE user_id=? AND paymenttype=?
+
+Time : 16:12:40
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO debtors (id, receiptnumber, debname, debphone, debtsum,  amount, salesum, debtdate, debtretdate, file)
+                            VALUES(?,?,?,?,?,?,?,?,?,?)
+
+Time : 11:53:20
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO tempfizsale (
+                         id, 
+                         sessid,
+                         receiptnumber,
+                         productid, 
+                         productname, 
+                         part, 
+                         unit, 
+                         qty, 
+                         saleprice, 
+                         saleprice_edit,
+                         summa)
+                    VALUES(
+                           ?,
+                           ?,
+                           ?,
+                           ?,
+                           ?,
+                           ?,
+                           ?,
+                           ?,
+                           ?,
+                           ?)

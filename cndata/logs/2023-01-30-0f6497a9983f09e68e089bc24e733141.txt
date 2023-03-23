@@ -1,0 +1,35 @@
+Time : 10:59:21
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+Raw SQL : INSERT INTO `product_name`( 
+                           id,
+                          `name`, 
+                          `bar_code`
+                          ) VALUES (
+                                           ?,
+                                           ?,
+                                           ?
+                                           )
+
+Time : 10:58:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'null,
+                          `name`, 
+                          `bar_cod...' at line 2
+Raw SQL : INSERT INTO `product_name`( 
+                           null,
+                          `name`, 
+                          `bar_code`
+                          ) VALUES (
+                                           ?,
+                                           ?,
+                                           ?
+                                           )
+
+Time : 10:57:33
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+Raw SQL : INSERT INTO `product_name`( 
+                          `name`, 
+                          `bar_code`
+                          ) VALUES (
+                                           ?,
+                                           ?
+                                           )

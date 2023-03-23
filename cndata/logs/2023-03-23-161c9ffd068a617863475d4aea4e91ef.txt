@@ -1,0 +1,11 @@
+Time : 17:21:42
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'author' cannot be null
+Raw SQL : INSERT INTO posts (id, cat_id,title,posttext,postdate, location, author) VALUES (?,?,?,?,?,?,?)
+
+Time : 17:19:40
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'cat_id' cannot be null
+Raw SQL : INSERT INTO posts (id, cat_id,title,posttext,postdate, location, author) VALUES (?,?,?,?,?,?,?)
+
+Time : 17:17:17
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'cat_id' cannot be null
+Raw SQL : INSERT INTO posts (id, cat_id,title,posttext,postdate, location, author) VALUES (?,?,?,?,?,?,?)

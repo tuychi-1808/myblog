@@ -1,0 +1,161 @@
+Time : 14:01:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,
+                        `incomingprice`=?,
+                        `othe...' at line 4
+Raw SQL : UPDATE `sklad` SET 
+                        `part`=?,
+                        `incomeqty`= `incomeqty` + ?,
+                        `onhandqty`= `onhandqty` ?,
+                        `incomingprice`=?,
+                        `otherse`=?,
+                        `saleprice`=?,
+                        `allprice`=?,
+                        `incomingdate`=?,
+                        `barcod`=?,
+                        `user_id`=?,
+                        `other_consuption`=?,
+                        `price_product`=? 
+                        WHERE id = ?
+
+Time : 14:01:45
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,
+                        `incomingprice`=?,
+                        `othe...' at line 4
+Raw SQL : UPDATE `sklad` SET 
+                        `part`=?,
+                        `incomeqty`= `incomeqty` + ?,
+                        `onhandqty`= `onhandqty` ?,
+                        `incomingprice`=?,
+                        `otherse`=?,
+                        `saleprice`=?,
+                        `allprice`=?,
+                        `incomingdate`=?,
+                        `barcod`=?,
+                        `user_id`=?,
+                        `other_consuption`=?,
+                        `price_product`=? 
+                        WHERE id = ?
+
+Time : 14:01:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,
+                        `incomingprice`=?,
+                        `othe...' at line 4
+Raw SQL : UPDATE `sklad` SET 
+                        `part`=?,
+                        `incomeqty`= `incomeqty` + ?,
+                        `onhandqty`= `onhandqty` ?,
+                        `incomingprice`=?,
+                        `otherse`=?,
+                        `saleprice`=?,
+                        `allprice`=?,
+                        `incomingdate`=?,
+                        `barcod`=?,
+                        `user_id`=?,
+                        `other_consuption`=?,
+                        `price_product`=? 
+                        WHERE id = ?
+
+Time : 14:00:12
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,
+                        `incomingprice`=?,
+                        `othe...' at line 4
+Raw SQL : UPDATE `sklad` SET 
+                        `part`=?,
+                        `incomeqty`= `incomeqty` + ?,
+                        `onhandqty`= `onhandqty` ?,
+                        `incomingprice`=?,
+                        `otherse`=?,
+                        `saleprice`=?,
+                        `allprice`=?,
+                        `incomingdate`=?,
+                        `barcod`=?,
+                        `user_id`=?,
+                        `other_consuption`=?,
+                        `price_product`=? 
+                        WHERE id = ?
+
+Time : 13:59:38
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,
+                        `incomingprice`=?,
+                        `othe...' at line 4
+Raw SQL : UPDATE `sklad` SET 
+                        `part`=?,
+                        `incomeqty`= `incomeqty` + ?,
+                        `onhandqty`= `onhandqty` ?,
+                        `incomingprice`=?,
+                        `otherse`=?,
+                        `saleprice`=?,
+                        `allprice`=?,
+                        `incomingdate`=?,
+                        `barcod`=?,
+                        `user_id`=?,
+                        `other_consuption`=?,
+                        `price_product`=? 
+                        WHERE id = ?
+
+Time : 13:57:57
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,
+                        `incomingprice`=?,
+                        `othe...' at line 4
+Raw SQL : UPDATE `sklad` SET 
+                        `part`=?,
+                        `incomeqty`= `incomeqty` + ?,
+                        `onhandqty`= `onhandqty` ?,
+                        `incomingprice`=?,
+                        `otherse`=?,
+                        `saleprice`=?,
+                        `allprice`=?,
+                        `incomingdate`=?,
+                        `barcod`=?,
+                        `user_id`=?,
+                        `other_consuption`=?,
+                        `price_product`=? 
+                        WHERE id = ?
+
+Time : 13:46:27
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE `sklad` SET 
+                        `part`='[value-3]',
+                        `incomeqty`='[value-5]',
+                        `onhandqty`='[value-6]',
+                        `incomingprice`='[value-7]',
+                        `otherse`='[value-8]',
+                        `saleprice`='[value-9]',
+                        `allprice`='[value-10]',
+                        `incomingdate`='[value-11]',
+                        `barcod`='[value-12]',
+                        `user_id`='[value-13]',
+                        `other_consuption`='[value-14]',
+                        `price_product`='[value-15]' 
+                        WHERE id = ?
+
+Time : 13:13:19
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') VALUES (
+                                       ?,
+                      ...' at line 9
+Raw SQL : INSERT INTO `usertbl`
+                            (`id`, 
+                             `username`, 
+                             `password`, 
+                             `full_name`, 
+                             `last_name`, 
+                             `gender`, 
+                             `user_level`,
+                             ) VALUES (
+                                       ?,
+                                       ?,
+                                       ?,
+                                       ?,
+                                       ?,
+                                       ?,
+                                       ?
+                                       )
+
+Time : 12:33:19
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.fullname' in 'field list'
+Raw SQL : SELECT SUM(`s`.`amount_edit`) as `amount`, `u`.`username`, `u`.`fullname` FROM `usertbl` AS `u` LEFT JOIN `sales` AS `s` ON `s`.`user_id` = `u`.`id` 
+                            WHERE `s`.`saledate` BETWEEN ? AND ? GROUP BY `u`.`id`;
+
+Time : 12:20:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(`s`.`amount_edit`) as `amount`, `u`.`username` FROM `usertbl` AS `...' at line 1
+Raw SQL : SELECT * FROM SELECT SUM(`s`.`amount_edit`) as `amount`, `u`.`username` FROM `usertbl` AS `u` LEFT JOIN `sales` AS `s` ON `s`.`user_id` = `u`.`id` GROUP BY `u`.`id`;

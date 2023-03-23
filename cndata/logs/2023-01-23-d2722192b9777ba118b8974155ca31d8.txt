@@ -1,0 +1,11 @@
+Time : 11:10:01
+SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'skladm.tempyursale'
+Raw SQL : SELECT tempyursale.*, sklad.price_product FROM tempfizsale LEFT JOIN sklad ON sklad.id = tempyursale.productid WHERE sessid=?
+
+Time : 10:06:08
+SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'skladm.tempyursale'
+Raw SQL : SELECT tempyursale.*, sklad.price_product FROM tempfizsale LEFT JOIN sklad ON sklad.id = tempyursale.productid WHERE sessid=?
+
+Time : 10:05:26
+SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'skladm.tempyursale'
+Raw SQL : SELECT tempyursale.*, sklad.price_product FROM tempfizsale LEFT JOIN sklad ON sklad.id = tempyursale.productid WHERE sessid=?

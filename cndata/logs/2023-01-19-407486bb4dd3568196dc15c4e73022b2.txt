@@ -1,0 +1,6 @@
+Time : 02:22:10
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'barcode' in 'field list'
+Raw SQL : INSERT INTO sklad (id, productname, 
+                         part, unit, incomeqty, onhandqty, incomingprice, otherse, 
+                         saleprice, allprice, incomingdate, barcode)
+                        VALUES(?,?,?,?,?,?,?,?,?,?,?,?)

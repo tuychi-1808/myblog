@@ -1,0 +1,7 @@
+Time : 23:50:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(id, cat_id,title,posttext,location) VALUES (?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO (id, cat_id,title,posttext,location) VALUES (?,?,?,?,?)
+
+Time : 23:48:34
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(id, cat_id,title,posttext,location) VALUES (?,?,?,?,?)' at line 1
+Raw SQL : INSERT INTO (id, cat_id,title,posttext,location) VALUES (?,?,?,?,?)

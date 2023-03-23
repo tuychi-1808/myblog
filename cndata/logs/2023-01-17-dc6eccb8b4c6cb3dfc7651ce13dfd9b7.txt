@@ -1,0 +1,7 @@
+Time : 20:27:54
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'saleprice, allprice, incomingdate)
+                        VALUES(?,?,?,?,?,...' at line 3
+Raw SQL : INSERT INTO sklad (id, productname, 
+                         part, unit, incomeqty, onhandqty, incomingprice, otherse 
+                         saleprice, allprice, incomingdate)
+                        VALUES(?,?,?,?,?,?,?,?,?,?,?)
