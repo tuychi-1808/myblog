@@ -19,6 +19,7 @@ require ('../development_mode_control.php');
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="ck/ckeditor.js"></script>
 
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -133,7 +134,7 @@ if (isset($_POST['save_post']))
             </div>
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Статья к теме</label>
-                <textarea class="form-control" name="text" id="exampleFormControlTextarea1" rows="30"></textarea>
+                <textarea class="form-control" name="text" id="editor1" rows="30"></textarea>
             </div>
             <a href="posts.php"  class="btn btn-danger">Назад</a>
             <button class="btn btn-primary"  type="submit" name="save_post">Сохранить</button>
@@ -143,7 +144,11 @@ if (isset($_POST['save_post']))
 </div>
 <!-- end page-wrapper -->
 
-
+<script>
+    // Replace the <textarea id="editor1"> with a CKEditor 4
+    // instance, using default configuration.
+    CKEDITOR.replace( 'editor1' );
+</script>
 
 
 
