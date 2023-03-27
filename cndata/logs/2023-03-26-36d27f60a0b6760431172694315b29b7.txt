@@ -1,0 +1,11 @@
+Time : 16:43:03
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sidearchive' at line 1
+Raw SQL : SELECT FROM sidearchive
+
+Time : 16:41:21
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sidecategories' at line 1
+Raw SQL : SELECT FROM sidecategories
+
+Time : 17:09:20
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'icon_href' in 'field list'
+Raw SQL : INSERT INTO sidecategories (id, icon_href, icon_class) VALUES (?,?,?)

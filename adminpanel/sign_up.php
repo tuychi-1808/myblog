@@ -17,7 +17,6 @@ if (isset($_POST['save'])){
         $login = $_POST['login'];
         $userpassword = sha1(clean($_POST['userpassword']));
         $userlevel = "3";
-
         if($DB ->query("INSERT INTO blog_usertbl (id, username, password, full_name, user_level ) VALUES (?,?,?,?,?)",
             array(null, "$username", "$userpassword", "$login", "$userlevel")))
         {
