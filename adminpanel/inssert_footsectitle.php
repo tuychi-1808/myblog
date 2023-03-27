@@ -19,13 +19,10 @@ require ('../development_mode_control.php');
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
-
     <!--Form Wizard-->
     <link rel="stylesheet" href="../plugins/jquery-steps/jquery.steps.css">
-
     <!-- App css -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/jquery-ui.min.css" rel="stylesheet">
@@ -33,11 +30,24 @@ require ('../development_mode_control.php');
     <link href="assets/css/metisMenu.min.css" rel="stylesheet" type="text/css" />
     <link href="../plugins/daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
-</head>
 
+</head>
 <body class="dark-sidenav">
 <!-- Left Sidenav -->
 
+<?php
+if (isset($_POST['footsecond_save'])){
+    $article = $_POST['article'];
+    $title = $_POST['title'];
+
+    if ($DB ->query("INSERT INTO footer_secondtitle(id, article, title) VALUES (?,?,?)", array(null, $article, $title,)))
+    {
+        echo "Succes information!!";
+
+        echo '<script>window.location.href = "footer_secondtitle.php"</script>';
+        //header("location:footer_secondtitle.php");
+    }
+}
 
 ?>
 <header>
@@ -56,11 +66,7 @@ require ('../development_mode_control.php');
                     <a href="index.php"> <i data-feather="home" class="align-self-center menu-icon"></i><span>Главное меню</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
                 </li>
                 <hr class="hr-dashed hr-menu">
-                <li>
-                    <a href="adduser.php">
-                        <span>Вернуться</span>
-                    </a>
-                </li>
+
             </ul>
         </div>
 
@@ -70,69 +76,36 @@ require ('../development_mode_control.php');
     </div>
 </header>
 <!-- end left-sidenav-->
-<?php
 
-if (isset($_POST['save_user'])){
-    $name = $_POST['name'];
-    $login = $_POST['login'];
-    $password = sha1($_POST['password']);
-    $user_level = $_POST['user_level'];
 
-    if ($DB->query("INSERT INTO blog_usertbl (id, username, password, full_name, user_level) VALUES (?,?,?,?,?)",
-        array(null, "$name", "$password", "$login", "$user_level")));
-    echo "User succes!!!";
-
-    echo '<script>window.location.href = "adduser.php"</script>';
-   // header("location:adduser.php");
-}
-else{
-    echo "Error insert!!!";
-}
-
-?>
-
-<div class="page-wrapper mb-3">
+<div class="page-wrapper">
     <!-- Top Bar Start -->
     <div class="topbar">
         <!-- Navbar -->
         <nav class="navbar-custom text-center">
-            <h2 class="p-3">Добавить пользователя</h2>
+            <h2 class="p-3">Добавить footersecond</h2>
         </nav>
         <!-- end navbar-->
     </div>
+
     <div class="container">
-        <form class="mt-5" method="post" enctype="multipart/form-data" >
-            <div class="form-row">
-                 <div class="col-md-6 mb-3">
-                    <label for="validationDefault02">Имя</label>
-                    <input type="text" name="name" class="form-control" id="validationDefault02"  >
-                </div>
-                <div class="col-md-6 mb-3">
-                    <label for="exampleFormControlTextarea1">Роль</label>
-                    <select class="form-control" name="user_level" id="">
-                        <option value="1">Администратор</option>
-                        <option value="2">Модератор</option>
-                        <option value="3">Пользователь</option>
-                    </select>
-                </div>
-            </div>
+        <form class="mt-5" method="post">
             <div class="form-row">
                 <div class="col-md-6 mb-3">
-                    <label for="validationDefault03">Логин</label>
-                    <input type="text" name="login" class="form-control" id="validationDefault03" >
+                    <label for="validationDefault01">Название стати</label>
+                    <input type="text" name="article" class="form-control" id="validationDefault01" >
                 </div>
-             <div class="col-md-6 mb-3">
-                    <label for="validationDefault04">Пароль</label>
-                    <input type="text" name="password" class="form-control">
+                <div class="col-md-6 mb-3">
+                    <label for="validationDefault01">Статья</label>
+                    <input type="text" name="title" class="form-control" id="validationDefault01" >
                 </div>
             </div>
-    <a href="adduser.php"  class="btn btn-danger">Назад</a>
-    <button class="btn btn-primary"  type="submit" name="save_user">Сохранить</button>
-    </form>
-</div><!--end row--><!--end fieldset-->
-<!-- Top Bar End -->
+            <a href="footer_secondtitle.php"  class="btn btn-danger" type="submit">Назад</a>
+            <button class="btn btn-primary"  type="submit" name="footsecond_save">Сохранить</button>
+        </form>
+    </div><!--end row--><!--end fieldset-->
 </div>
-<!-- end page-wrapper -->
+
 
 
 

@@ -10,13 +10,12 @@
         <ul class="metismenu left-sidenav-menu">
             <li class="menu-label mt-0"><?php echo  $_SESSION['session_username'];?></li>
             <li>
-                <a href="../index.php"> <i data-feather="home" class="align-self-center menu-icon">
+                <a href="index.php"> <i data-feather="home" class="align-self-center menu-icon">
                     </i>
                     <span>Главная страница</span>
                 </a>
             </li>
             <hr class="hr-dashed hr-menu">
-
             <li>
                 <a href="index.php">
                     <span>Мои посты</span>

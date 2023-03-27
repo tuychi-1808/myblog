@@ -6,16 +6,9 @@
             <input type="submit" value="">
         </form>
     </div>
-    <div class="categories">
-        <h3>CATEGORIES</h3>
-        <li class="active"><a href="#">Donec quis dui at dolor tempor</a></li>
-        <li><a href="#">Vestibulum commodo felis quis tort</a></li>
-        <li><a href="#">Fusce pellentesque suscipit</a></li>
-    </div>
-    <div class="archives">
-        <h3>ARCHIVES</h3>
-        <li class="active"><a href="#">July 2014</a></li>
-        <li><a href="#">June 2014</a></li>
-        <li><a href="#">May 2014</a></li>
-    </div>
+
+    <?php include 'sidecategories.php'; ?>
+
+   <?php include 'sidearchives.php'; ?>
+
 </div>

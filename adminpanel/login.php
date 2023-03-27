@@ -31,7 +31,8 @@ if (isset($_POST['save'])){
                 $clientId = $row['full_name'];
             endforeach;
             $_SESSION['session_id'] = $clientId;
-            header( "location:index.php");
+            echo '<script>window.location.href = "index.php"</script>';
+           //header( "location:index.php");
         }else{
             $message = "<label>Неправильный парол или логин!!!</label>";
         }
@@ -59,7 +60,7 @@ if (isset($_POST['save'])){
         <div class="head w-100 d-flex justify-content-center">
             <nav class=" w-100 d-flex justify-content-center">
                 <h1 class="d-flex">
-                    Вход в наш магазин
+                    Авторизация
                 </h1>
             </nav>
         </div>
@@ -81,6 +82,7 @@ if (isset($_POST['save'])){
             </div>
             <div class="d-flex justify-content-center">
                 <button type="submit" name="save" class="btn btn-primary w-100">Войти</button>
+                <a href="sign_up.php" class="btn btn-success w-100">Зарегистрироваться</a>
             </div>
 
         </form>

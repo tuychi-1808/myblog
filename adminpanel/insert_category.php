@@ -4,7 +4,8 @@ date_default_timezone_set('Europe/Moscow');
 session_start();
 if (!isset($_SESSION['session_username']))
 {
-    header('location:login.php');
+    echo '<script>window.location.href = "login.php"</script>';
+   // header('location:login.php');
 }
 require ('../development_mode_control.php');
 
@@ -42,8 +43,8 @@ require ('../development_mode_control.php');
            {
                echo "Succes information!!";
 
-
-                header("location:index.php");
+               echo '<script>window.location.href = "category.php"</script>';
+               // header("location:category.php");
            }
         }
 
@@ -94,7 +95,7 @@ require ('../development_mode_control.php');
                                 <input type="text" name="title" class="form-control" id="validationDefault01" >
                             </div>
                         </div>
-                        <a href="index.php"  class="btn btn-danger" type="submit">Назад</a>
+                        <a href="category.php"  class="btn btn-danger" type="submit">Назад</a>
                         <button class="btn btn-primary"  type="submit" name="save">Сохранить</button>
                     </form>
                 </div><!--end row--><!--end fieldset-->

@@ -46,7 +46,8 @@ if (isset($_POST['save'])){
 
         echo "Succes information!!";
 
-        header("location:index.php");
+    echo '<script>window.location.href = "category.php"</script>';
+       // header("location:category.php");
 }
 
 ?>
@@ -97,7 +98,7 @@ if (isset($_POST['save'])){
                 </div>
             </div>
             <input type="hidden" name="cat_row_id" value="<?php echo $row["id"];?>">
-            <a href="index.php"  class="btn btn-danger" type="submit">Назад</a>
+            <a href="category.php"  class="btn btn-danger" type="submit">Назад</a>
             <button class="btn btn-primary"  type="submit" name="save">Сохранить</button>
         </form>
         <?php endforeach;?>

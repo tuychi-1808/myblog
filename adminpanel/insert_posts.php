@@ -4,7 +4,8 @@ date_default_timezone_set('Europe/Moscow');
 session_start();
 if (!isset($_SESSION['session_username']))
 {
-    header('location:login.php');
+    echo '<script>window.location.href = "login.php"</script>';
+   // header('location:login.php');
 }
 require ('../development_mode_control.php');
 
@@ -54,7 +55,9 @@ if (isset($_POST['save_post']))
         array(null,$cat_id,$theme,$text,$postdate,$location)))
     {
         echo "SUCCES INFORMATION!!";
-        header("location:index.php");
+
+        echo '<script>window.location.href = "posts.php"</script>';
+       // header("location:posts.php");
     }
 }
 
@@ -132,7 +135,7 @@ if (isset($_POST['save_post']))
                 <label for="exampleFormControlTextarea1">Статья к теме</label>
                 <textarea class="form-control" name="text" id="exampleFormControlTextarea1" rows="30"></textarea>
             </div>
-            <a href="index.php"  class="btn btn-danger">Назад</a>
+            <a href="posts.php"  class="btn btn-danger">Назад</a>
             <button class="btn btn-primary"  type="submit" name="save_post">Сохранить</button>
         </form>
     </div><!--end row--><!--end fieldset-->

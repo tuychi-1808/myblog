@@ -1,8 +1,8 @@
 <?php
-function isAdmin () {
+function userLevel () {
 	global $conn ; 
     $q = $_SESSION['session_username'] ; 
-	$isAdmin = $conn->prepare('SELECT user_level FROM usertbl WHERE username = :q');
+	$isAdmin = $conn->prepare('SELECT user_level FROM blog_usertbl WHERE username = :q');
     $isAdmin->execute(array('q' => $q));
     $adminResult = $isAdmin->fetchAll(); 
 	foreach ($adminResult as $row):
@@ -116,12 +116,12 @@ function setLevel($lvl="") {
     }
     elseif ($lvl==2) {
 
-        $lvl="Продавец" ;
+        $lvl="Модератор" ;
         
     }
     else {
 
-        $lvl="Зав.склад" ;
+        $lvl="Пользователь" ;
         
     }
     return $lvl ; 

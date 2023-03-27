@@ -40,35 +40,7 @@ require ('../development_mode_control.php');
 
 <body class="dark-sidenav">
 <!-- Left Sidenav -->
-<header>
-    <div class="left-sidenav">
-        <!-- LOGO -->
-        <div class="brand">
-            <a href="" class="logo">
-                <h3 style="color: white; margin: 20px;">Блог</h3>
-            </a>
-        </div>
-        <!--end logo-->
-        <div class="menu-content h-100" data-simplebar>
-            <ul class="metismenu left-sidenav-menu">
-                <li class="menu-label mt-0"><?php echo  $_SESSION['session_username'];?></li>
-                <li>
-                    <a href="index.php">
-                        <i data-feather="home" class="align-self-center menu-icon">
-                        </i><span>Главная страница</span>
-                        <span class="menu-arrow">
-                            <i class="mdi mdi-chevron-right"></i>
-                        </span></a>
-                </li>
-                <hr class="hr-dashed hr-menu">
-            </ul>
-        </div>
-
-        <footer class="footer text-center text-sm-left">
-            &copy; 2020 Dastyle <span class="d-none d-sm-inline-block float-right">Crafted with <i class="mdi mdi-heart text-danger"></i> by Mannatthemes</span>
-        </footer>
-    </div>
-</header>
+<?php include "menu.php";?>
 
 <!-- end left-sidenav-->
 <section class="container-fluid">
@@ -124,45 +96,53 @@ require ('../development_mode_control.php');
         <div class="col-lg">
             <div class="card">
                 <div class="card-header">
-                    <h4>Все пользователя</h4>
+                    <h2>Управление постами</h2>
+
+                </div><!--end card-header-->
+            </div><!--end card-->
+        </div> <!-- end col -->
+
+        <div class="col-lg">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Внести изменение категориям</h4>
+
                 </div><!--end card-header-->
                 <div class="card-body">
                     <div class="table-responsive">
-                        <table class="table table-dark mb-6">
+                        <table class="table table-dark mb-0">
                             <thead class="bg-blue-50">
                             <tr>
                                 <th>№</th>
-                                <th>ЛОГИН</th>
-                                <th>ИМЯ</th>
-                                <th>СТАТУС</th>
-                                <th>ДАТА ДОБАВЛЕНИЯ</th>
-                                <th>
-                                    <a href="insert_user.php"><button type="button" class="btn btn-outline-success">Добавить</button></a>
+                                <th>НАЗВАНИЕ</th>
+                                <th>ДЕЙСТВИЕ</th>
+                                <th class="align-content-center">
+                                    <a href="insert_category.php"><<button type="button" class="btn btn-outline-success">Добавить</button></a>
                                 </th>
                             </tr>
                             </thead>
                             <tbody>
-                            <?php //
-                          $result = $DB->query("SELECT * FROM blog_usertbl");
+                            <?php
+                            $result = $DB->query("SELECT * FROM categories");
                             foreach ($result as $row):
                                 ?>
                                 <tr>
-                                    <td><?php echo $row['id'];?></td>
-                                    <td><?php echo $row['username'];?></td>
-                                    <td><?php echo $row['full_name'];?></td>
-                                    <td><?php echo setLevel($row['user_level']);?></td>
-                                    <td style=""><?php echo $row['add_date'];?></td>
+                                    <td><?php echo $row['id']?></td>
+                                    <td><?php echo $row['catname']?></td>
                                     <td>
-                                        <a href="delete.php?id=<?php echo $row['id']?>&dbname=blog_usertbl&url=adduser.php&row=id"><button type="button" class="btn btn-outline-danger">Удалить</button></a>
+                                        <a href="edit_category.php?id=<?php echo $row['id']?>"><button type="button" class="btn btn-outline-primary">Редактировать</button></a>
+                                        <a href="delete.php?id=<?php echo $row['id']?>&dbname=categories&url=category.php&row=id"><<button type="button" class="btn btn-outline-danger">Удалить</button></a>
                                     </td>
                                 </tr>
                             <?php endforeach;?>
                             </tbody>
                         </table><!--end /table-->
+
                     </div><!--end /tableresponsive-->
+
                 </div><!--end card-body-->
             </div><!--end card-->
-        </div>
+        </div> <!-- end col -->
         <!-- end page content -->
         <!-- end page-wrapper -->
 </section>
