@@ -1,11 +1,10 @@
 <?php
 require ('development_mode_control.php') ;
 
-$result = $DB->query("SELECT * FROM sidecategories");
 ?>
 <div class="categories">
-    <?php foreach ($result as $row): ?>
-    <h3><?php echo $row['title']; ?></h3>
-    <li class="active"><a href="#"><?php echo $row['theme']; ?></a></li>
-    <?php endforeach;?>
+    <h3>CATEGORIES</h3>
+    <li class="active"><a href="#">Donec quis dui at dolor tempor</a></li>
+    <li><a href="#">Vestibulum commodo felis quis tort</a></li>
+    <li><a href="#">Fusce pellentesque suscipit</a></li>
 </div>

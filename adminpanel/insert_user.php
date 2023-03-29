@@ -91,7 +91,7 @@ else{
 
 ?>
 
-<div class="page-wrapper mb-3">
+<div class="page-wrapper">
     <!-- Top Bar Start -->
     <div class="topbar">
         <!-- Navbar -->

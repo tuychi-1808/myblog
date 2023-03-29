@@ -36,73 +36,73 @@ require ('../development_mode_control.php');
 <!-- Left Sidenav -->
 
 <?php
-if (isset($_POST['sidebarcat_save'])){
-    $href = $_POST['title'];
-    $theme = $_POST['theme'];
 
-    if ($DB ->query("INSERT INTO sidecategories (id, title, theme) VALUES (?,?,?)", array(null, $href, $theme)))
-    {
-        echo "Succes information!!";
+$id = $_GET['id'];
 
-        echo '<script>window.location.href = "side_categories.php"</script>';
-        //header("location:side_categories.php");
-    }
+if (isset($_POST['footfirst_save'])){
+    $title = $_POST['title'];
+    $footfirst_row_id = $_POST['footfirst_row_id'];
+
+    $DB ->query("UPDATE  footer_first_h SET  title = ? WHERE id = ?", array("$title", "$footfirst_row_id"));
+
+    echo "Succes information!!";
+
+    echo '<script>window.location.href = "footer_first_h.php"</script>';
+    //header("location:footer_firsttitle.php");
 }
 
 ?>
-<header>
-    <div class="left-sidenav">
-        <!-- LOGO -->
-        <div class="brand">
-            <a href="" class="logo">
-                <h3 style="color: white; margin: 20px;">Блог</h3>
-            </a>
-        </div>
-        <!--end logo-->
-        <div class="menu-content h-100" data-simplebar>
-            <ul class="metismenu left-sidenav-menu">
-                <li class="menu-label mt-0"><?php echo  $_SESSION['session_username'];?></li>
-                <li>
-                    <a href="index.php"> <i data-feather="home" class="align-self-center menu-icon"></i><span>Главное меню</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
-                </li>
-                <hr class="hr-dashed hr-menu">
-
-            </ul>
-        </div>
-
-        <footer class="footer text-center text-sm-left">
-            &copy; 2020 Dastyle <span class="d-none d-sm-inline-block float-right">Crafted with <i class="mdi mdi-heart text-danger"></i> by Mannatthemes</span>
-        </footer>
+<div class="left-sidenav">
+    <!-- LOGO -->
+    <div class="brand">
+        <a href="" class="logo">
+            <h3 style="color: white; margin: 20px;">Блог</h3>
+        </a>
     </div>
-</header>
-<!-- end left-sidenav-->
+    <!--end logo-->
+    <div class="menu-content h-100" data-simplebar>
+        <ul class="metismenu left-sidenav-menu">
+            <li class="menu-label mt-0"><?php echo  $_SESSION['session_username'];?></li>
+            <li>
+                <a href="index.php"> <i data-feather="home" class="align-self-center menu-icon"></i><span>Главное меню</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+            </li>
+            <hr class="hr-dashed hr-menu">
 
+        </ul>
+    </div>
+
+    <footer class="footer text-center text-sm-left">
+        &copy; 2020 Dastyle <span class="d-none d-sm-inline-block float-right">Crafted with <i class="mdi mdi-heart text-danger"></i> by Mannatthemes</span>
+    </footer>
+</div>
+<!-- end left-sidenav-->
 
 <div class="page-wrapper">
     <!-- Top Bar Start -->
     <div class="topbar">
         <!-- Navbar -->
         <nav class="navbar-custom text-center">
-            <h2 class="p-3">Добавить sidecategories</h2>
+            <h2 class="p-3">Внести изменение footerfirst</h2>
         </nav>
         <!-- end navbar-->
     </div>
 
     <div class="container">
-        <form class="mt-5" method="post">
-            <div class="form-row">
-                <div class="col-md-6 mb-3">
-                    <label for="validationDefault01">Заголовок</label>
-                    <input type="text" name="title" class="form-control" id="validationDefault01" >
+        <?php
+        $result = $DB ->query("SELECT * FROM footer_first_h WHERE id = ?", array("$id"));
+        foreach ($result as $row): ?>
+            <form class="mt-5" method="post">
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationDefault01">Название категории</label>
+                        <input type="text" name="title" value="<?php echo $row["title"];?>" class="form-control" id="validationDefault01" >
+                    </div>
                 </div>
-                <div class="col-md-6 mb-3">
-                    <label for="validationDefault01">Тема</label>
-                    <input type="text" name="theme" class="form-control" id="validationDefault01" >
-                </div>
-            </div>
-            <a href="side_categories.php"  class="btn btn-danger" type="submit">Назад</a>
-            <button class="btn btn-primary"  type="submit" name="sidebarcat_save">Сохранить</button>
-        </form>
+                <input type="hidden" name="footfirst_row_id" value="<?php echo $row["id"];?>">
+                <a href="footer_firsttitle.php"  class="btn btn-danger" type="submit">Назад</a>
+                <button class="btn btn-primary"  type="submit" name="footfirst_save">Сохранить</button>
+            </form>
+        <?php endforeach;?>
     </div><!--end row--><!--end fieldset-->
 </div>
 

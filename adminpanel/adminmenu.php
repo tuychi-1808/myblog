@@ -40,8 +40,8 @@ date_default_timezone_set('Europe/Moscow');
                 </a>
             </li>
             <li>
-                <a href="footer_secondtitle.php">
-                    <span> Внести изменение footersecond</span>
+                <a href="footer_first_h.php">
+                    <span> Внести изменение sidebar footer_first_h</span>
                 </a>
             </li>
             <li>
@@ -49,16 +49,7 @@ date_default_timezone_set('Europe/Moscow');
                     <span> Внести изменение footericons</span>
                 </a>
             </li>
-            <li>
-                <a href="side_categories.php">
-                    <span> Внести изменение sidebar categories</span>
-                </a>
-            </li>
-            <li>
-                <a href="side_archivies.php">
-                    <span> Внести изменение sidebar sidearchive</span>
-                </a>
-            </li>
+
         </ul>
     </div>
 

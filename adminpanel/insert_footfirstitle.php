@@ -37,10 +37,9 @@ require ('../development_mode_control.php');
 
 <?php
 if (isset($_POST['footfirst_save'])){
-    $title = $_POST['title'];
     $text = $_POST['text'];
 
-    if ($DB ->query("INSERT INTO footer_firsttitle(id, title, text) VALUES (?,?,?)", array(null, $title, $text)))
+    if ($DB ->query("INSERT INTO footer_firsttitle(id, text) VALUES (?,?)", array(null, $text)))
     {
         echo "Succes information!!";
 
@@ -91,10 +90,6 @@ if (isset($_POST['footfirst_save'])){
     <div class="container">
         <form class="mt-5" method="post">
             <div class="form-row">
-                <div class="col-md-6 mb-3">
-                    <label for="validationDefault01">Название</label>
-                    <input type="text" name="title" class="form-control" id="validationDefault01" >
-                </div>
                 <div class="col-md-6 mb-3">
                     <label for="validationDefault01">Текст</label>
                     <input type="text" name="text" class="form-control" id="validationDefault01" >

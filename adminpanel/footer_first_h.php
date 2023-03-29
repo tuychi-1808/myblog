@@ -96,7 +96,7 @@ require ('../development_mode_control.php');
         <div class="col-lg">
             <div class="card">
                 <div class="card-header">
-                    <h2>Управление боковым меню</h2>
+                    <h2>Управление подвалом</h2>
 
                 </div><!--end card-header-->
             </div><!--end card-->
@@ -105,7 +105,7 @@ require ('../development_mode_control.php');
         <div class="col-lg">
             <div class="card">
                 <div class="card-header">
-                    <h4>Внести изменение sidebar categories</h4>
+                    <h4>Внести изменение footer</h4>
 
                 </div><!--end card-header-->
                 <div class="card-body">
@@ -115,25 +115,23 @@ require ('../development_mode_control.php');
                             <tr>
                                 <th>№</th>
                                 <th>НАЗВАНИЕ</th>
-                                <th>ТЕМЫ</th>
                                 <th>ДЕЙСТВИЕ</th>
                                 <th class="align-content-center">
-                                    <a href="insert_sidecategories.php"><button type="button" class="btn btn-outline-success">Добавить</button></a>
+                                    <a href="insert_footer_first_h.php"><button type="button" class="btn btn-outline-success">Добавить</button></a>
                                 </th>
                             </tr>
                             </thead>
                             <tbody>
                             <?php
-                            $result = $DB->query("SELECT * FROM sidecategories");
+                            $result = $DB->query("SELECT * FROM footer_first_h");
                             foreach ($result as $row):
                                 ?>
                                 <tr>
                                     <td><?php echo $row['id']?></td>
                                     <td><?php echo $row['title']?></td>
-                                    <td><?php echo $row['theme']?></td>
                                     <td>
-                                        <a href="edit_sidecategories.php?id=<?php echo $row['id']?>"><button type="button" class="btn btn-outline-primary">Редактировать</button></a>
-                                        <a href="delete.php?id=<?php echo $row['id']?>&dbname=sidecategories&url=side_categories.php&row=id"><<button type="button" class="btn btn-outline-danger">Удалить</button></a>
+                                        <a href="edit_footer_first_h.php?id=<?php echo $row['id']?>"><button type="button" class="btn btn-outline-primary">Редактировать</button></a>
+                                        <a href="delete.php?id=<?php echo $row['id']?>&dbname=footer_first_h&url=footer_first_h.php&row=id"><<button type="button" class="btn btn-outline-danger">Удалить</button></a>
                                     </td>
                                 </tr>
                             <?php endforeach;?>

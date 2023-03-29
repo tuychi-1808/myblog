@@ -20,7 +20,7 @@ require ('../development_mode_control.php');
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
+    <script src="ck/ckeditor.js"></script>
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
 
@@ -148,12 +148,12 @@ if (isset($_POST['save_post']))
                     </div>
                     <div class="col-md-3 mb-3">
                         <label for="validationDefault04">Дата</label>
-                        <input type="date"  name="editdate" class="form-control">
+                        <input type="date"  name="editdate"  value="<?php echo $row["postdate"];?>" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Статья к теме</label>
-                    <textarea class="form-control" name="text"  value="<?php echo $row["posttext"];?>" id="exampleFormControlTextarea1" rows="30"></textarea>
+                    <textarea class="form-control" name="text" value="<?php echo $row["posttext"];?>"  id="editor1" rows="30"></textarea>
                 </div>
                 <input type="hidden" name="post_row" value="<?php echo $row["id"];?>">
                 <a href="posts.php"  class="btn btn-danger">Назад</a>
@@ -168,6 +168,11 @@ if (isset($_POST['save_post']))
 
 
 
+<script>
+    // Replace the <textarea id="editor1"> with a CKEditor 4
+    // instance, using default configuration.
+    CKEDITOR.replace( 'editor1' );
+</script>
 
 <!-- jQuery  -->
 <script src="assets/js/jquery.min.js"></script>

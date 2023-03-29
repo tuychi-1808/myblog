@@ -40,11 +40,10 @@ require ('../development_mode_control.php');
 $id = $_GET['id'];
 
 if (isset($_POST['footfirst_save'])){
-    $title = $_POST['title'];
     $text = $_POST['text'];
     $footfirst_row_id = $_POST['footfirst_row_id'];
 
-    $DB ->query("UPDATE  footer_firsttitle SET  title = ?, text =? WHERE id = ?", array("$title", "$text", "$footfirst_row_id"));
+    $DB ->query("UPDATE  footer_firsttitle SET  text =? WHERE id = ?", array("$text", "$footfirst_row_id"));
 
     echo "Succes information!!";
 
@@ -94,10 +93,6 @@ if (isset($_POST['footfirst_save'])){
         foreach ($result as $row): ?>
             <form class="mt-5" method="post">
                 <div class="form-row">
-                    <div class="col-md-6 mb-3">
-                        <label for="validationDefault01">Название категории</label>
-                        <input type="text" name="title" value="<?php echo $row["title"];?>" class="form-control" id="validationDefault01" >
-                    </div>
                    <div class="col-md-6 mb-3">
                     <label for="validationDefault01">Текст</label>
                     <input type="text" name="text" value="<?php echo $row["text"];?>" class="form-control" id="validationDefault01" >
