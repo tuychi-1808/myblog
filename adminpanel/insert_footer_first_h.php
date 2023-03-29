@@ -36,16 +36,15 @@ require ('../development_mode_control.php');
 <!-- Left Sidenav -->
 
 <?php
-if (isset($_POST['footsecond_save'])){
-    $article = $_POST['article'];
+if (isset($_POST['footfirst_save'])){
     $title = $_POST['title'];
 
-    if ($DB ->query("INSERT INTO footer_secondtitle(id, article, title) VALUES (?,?,?)", array(null, $article, $title,)))
+    if ($DB ->query("INSERT INTO footer_first_h(id, title) VALUES (?,?)", array(null, $title)))
     {
         echo "Succes information!!";
 
-        echo '<script>window.location.href = "footer_secondtitle.php"</script>';
-        //header("location:footer_secondtitle.php");
+        echo '<script>window.location.href = "footer_first_h.php"</script>';
+        //header("location:footer_firsttitle.php");
     }
 }
 
@@ -83,7 +82,7 @@ if (isset($_POST['footsecond_save'])){
     <div class="topbar">
         <!-- Navbar -->
         <nav class="navbar-custom text-center">
-            <h2 class="p-3">Добавить footersecond</h2>
+            <h2 class="p-3">Добавить footerfirst</h2>
         </nav>
         <!-- end navbar-->
     </div>
@@ -92,16 +91,12 @@ if (isset($_POST['footsecond_save'])){
         <form class="mt-5" method="post">
             <div class="form-row">
                 <div class="col-md-6 mb-3">
-                    <label for="validationDefault01">Название стати</label>
-                    <input type="text" name="article" class="form-control" id="validationDefault01" >
-                </div>
-                <div class="col-md-6 mb-3">
-                    <label for="validationDefault01">Статья</label>
+                    <label for="validationDefault01">Название</label>
                     <input type="text" name="title" class="form-control" id="validationDefault01" >
                 </div>
             </div>
-            <a href="footer_secondtitle.php"  class="btn btn-danger" type="submit">Назад</a>
-            <button class="btn btn-primary"  type="submit" name="footsecond_save">Сохранить</button>
+            <a href="footer_first_h.php"  class="btn btn-danger" type="submit">Назад</a>
+            <button class="btn btn-primary"  type="submit" name="footfirst_save">Сохранить</button>
         </form>
     </div><!--end row--><!--end fieldset-->
 </div>

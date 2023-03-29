@@ -114,7 +114,6 @@ require ('../development_mode_control.php');
                             <thead class="bg-blue-50">
                             <tr>
                                 <th>№</th>
-                                <th>НАЗВАНИЕ</th>
                                 <th>ТЕКСТ</th>
                                 <th>ДЕЙСТВИЕ</th>
                                 <th class="align-content-center">
@@ -129,7 +128,6 @@ require ('../development_mode_control.php');
                                 ?>
                                 <tr>
                                     <td><?php echo $row['id']?></td>
-                                    <td><?php echo $row['title']?></td>
                                     <td><?php echo $row['text']?></td>
                                     <td>
                                         <a href="edit_footfirsttitle.php?id=<?php echo $row['id']?>"><button type="button" class="btn btn-outline-primary">Редактировать</button></a>
